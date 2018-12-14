@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(../assets/fonts/product-sans-regular.ttf);
+    }
+    
+@font-face {
+    font-family: Product Sans;
+    font-weight: bold;
+    src: url(../assets/fonts/product-sans-bold.ttf);
+    }
+
+@font-face {
+    font-family: Product Sans;
+    font-style: italic;
+    src: url(../assets/fonts/product-sans-italic.ttf);
+    }
+
+@font-face {
+    font-family: Product Sans;
+    font-weight: bold;
+    font-style: italic;
+    src: url(../assets/fonts/product-sans-bold-italic.ttf);
+    }
+
+.typing-text::after {
+    content: "|";
+    animation: blink ease 1s infinite;
+    }
+    
+    @keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    } 50% {
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: "Product Sans" !important;
+    font-weight: 100;
+}
+
+strong {
+    font-weight: 600 !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.hero-body {
+    background-image: url(../assets/img/homesquare-gradient.jpeg;)
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: .9rem;
+}
+
+.navbar-item {
+    color: #FFFFFF;
+}
+
+.is-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-item img {
+    max-height: 2.5rem !important;
+    max-width: 2.5rem;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.cele-title {
+    color: #ffffff !important;
+    font-weight: 100 !important;
+    //letter-spacing: 5px;
+    font-size: 2.5rem;
+}
+
+.cele-title-type {
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    //letter-spacing: 5px;
+    font-size: 2.5rem;
+}
+
+.cele-thin {
+    padding-right: 0;
+}
+
+.main-jumbo {
+    background-image: url(../assets/img/homesquare-gradient2.jpg);
+    background-position: center;
+}
+
+.logo-margin {
+    margin-bottom: 20px
+}
