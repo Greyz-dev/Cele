@@ -84,15 +84,13 @@ strong {
 .cele-title {
     color: #ffffff !important;
     font-weight: 100 !important;
-    //letter-spacing: 5px;
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 .cele-title-type {
     color: #ffffff !important;
     font-weight: 900 !important;
-    //letter-spacing: 5px;
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 .cele-thin {
@@ -104,6 +102,48 @@ strong {
     background-position: center;
 }
 
-.logo-margin {
-    margin-bottom: 20px
+.cele-full {
+    margin-bottom: 50px;
+    width: 8rem;
+}
+
+.arrow {
+    white-space: nowrap;
+    font-size: 4rem;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    transform: translateY(0);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+    color: #ffffff;
+}
+  
+ 
+.lift {
+    transform: translateY(14px);
+}
+
+
+@media (max-width: 536px) {
+
+    .cele-title {
+        font-size: 1.6em;
+    }
+    
+    .cele-title-type {
+        font-size: 1.6em;
+    }
+
+    .cele-full {
+        width: 6rem;
+    }
+
 }

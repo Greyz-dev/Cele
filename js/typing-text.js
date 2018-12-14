@@ -15,7 +15,7 @@ setTyper(text, words);
 function setTyper(element, words) {
 
   const LETTER_TYPE_DELAY = 75;
-  const WORD_STAY_DELAY = 1500;
+  const WORD_STAY_DELAY = 1800;
 
   const DIRECTION_FORWARDS = 0;
   const DIRECTION_BACKWARDS = 1;
