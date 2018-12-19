@@ -8,13 +8,7 @@ $(document).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
     });
 
-    $(document).click(function(event) {
-        $(".navbar-burger").removeClass("is-active");
-        $(".navbar-menu").removeClass("is-active");
-    })
-});
-
-$(document).click(function(event) { 
+    $(document).click(function(event) { 
         if(!$(event.target).closest('.navbar').length) {
             
             if($('.navbar-menu').hasClass("is-active")) {
@@ -23,3 +17,4 @@ $(document).click(function(event) {
             }
         }        
     });
+});
