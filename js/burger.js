@@ -18,3 +18,32 @@ $(document).ready(function() {
         }        
     });
 });
+
+
+$(function() {
+    var header = $(".navbar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.removeClass("is-transparent");
+        } else {
+            header.addClass("is-transparent");
+        }
+    });
+  
+});
+
+$(function() {
+    var header = $(".navbar-item");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled-text");
+        } else {
+            header.removeClass("scrolled-text");
+        }
+    });
+  
+});

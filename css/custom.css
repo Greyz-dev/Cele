@@ -1,3 +1,45 @@
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+    }
+    
+#left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+
+    #left { left: 0; }
+    #right { right: 0; }
+    
+#top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+
+    #top { top: 0; }
+    #bottom { bottom: 0; }
+
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+    #top, #bottom, #left, #right { display: none; }
+}
+
+.scrolled {
+    background-color: #ffffff !important;
+}
+
+.scrolled-text {
+    color: #333333 !important;
+    fill: #333333!important;
+}
+
 @font-face {
     font-family: Product Sans;
     src: url(../assets/fonts/product-sans-regular.ttf);
@@ -33,6 +75,10 @@
     } 50% {
         opacity: 1;
     }
+}
+
+.font {
+    font-family: "Product Sans" !important;
 }
 
 a {
@@ -86,6 +132,12 @@ a.navbar-item:hover {
     max-width: 2.5rem;
 }
 
+.footer-img {
+    max-height: 2.5rem !important;
+    max-width: 2.5rem;
+    margin-bottom: 15px;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -94,6 +146,18 @@ a.navbar-item:hover {
     color: #ffffff !important;
     font-weight: 100 !important;
     font-size: 2.5em;
+}
+
+.cele-title-dark {
+    color: #333333 !important;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+.cele-subtitle-dark {
+    color: #333333 !important;
+    font-weight: 100;
+    font-size: 1.5em;
 }
 
 .cele-title-type {
@@ -172,3 +236,51 @@ a.navbar-item:hover {
     }
 
 }
+
+.footer {
+    background-color: #333333;
+    padding: 3rem 3rem 3rem;
+}
+
+.button.primary-btn {
+    background-color: #A9CAC8 !important;
+    border-color: #A9CAC8 !important;
+    border-radius: 0px;
+}
+
+.button.primary-btn.raised:hover {
+    box-shadow: 0 14px 26px -12px rgba(169, 202, 200, 0.48),0 4px 23px 0px rgba(0,0,0,0.12),0 8px 10px -5px rgba(169, 202, 200, 0.48) !important;
+}
+
+.chat-icon-box .box-title {
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.icons {
+    font-size: 50px;
+    color: #777777;
+}
+
+.box-content {
+    color: #888888;
+}
+
+.section-title-landing {
+    color: #444444 !important;
+}
+
+.section .title.quick-feature {
+    font-size: 2.7rem;
+    color: #444444 !important;
+    position: relative;
+}
+
+.section .title-divider {
+    margin: 10px 0;
+    width: 40px;
+    height: 4px;
+    background: #A9CAC8;
