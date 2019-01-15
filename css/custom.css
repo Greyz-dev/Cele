@@ -33,11 +33,13 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 .scrolled {
     background-color: #ffffff !important;
+    transition: all .3s ease-in-out;
 }
 
 .scrolled-text {
     color: #333333 !important;
     fill: #333333!important;
+    transition: all .3s ease-in-out;
 }
 
 @font-face {
@@ -105,6 +107,7 @@ strong {
 .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: all .3s ease-in-out;
 }
 
 .navbar-text {
@@ -112,6 +115,7 @@ strong {
     font-weight: 900;
     letter-spacing: 2px;
     font-size: .9rem;
+    transition: all .3s ease-in-out;
 }
 
 .navbar-item {
@@ -125,6 +129,7 @@ a.navbar-item:hover {
 
 .is-transparent {
     background-color: transparent !important;
+    transition: all .3s ease-in-out;
 }
 
 .navbar-item img {
@@ -284,3 +289,4 @@ a.navbar-item:hover {
     width: 40px;
     height: 4px;
     background: #A9CAC8;
+}
