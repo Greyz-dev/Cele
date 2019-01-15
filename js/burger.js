@@ -47,3 +47,14 @@ $(function() {
     });
   
 });
+
+$(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) { 
+            $('.navbar-item img').attr('src','assets/img/favicon.png');
+        }
+        if ($(this).scrollTop() < 50) { 
+            $('.navbar-item img').attr('src','assets/img/cele-w.png');
+        }
+    })
+});
