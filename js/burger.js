@@ -35,6 +35,20 @@ $(function() {
 });
 
 $(function() {
+    var header = $(".navbar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("navbar-shadow");
+        } else {
+            header.removeClass("navbar-shadow");
+        }
+    });
+  
+});
+
+$(function() {
     var header = $(".navbar-item");
   
     $(window).scroll(function() {    

@@ -1,9 +1,10 @@
-#top, #bottom, #left, #right {
+//#top, #bottom, #left, #right {
 	background: #ffffff;
-	position: fixed;
+    position: fixed;
+    z-index: 1;
     }
     
-#left, #right {
+//#left, #right {
     top: 0; bottom: 0;
     width: 15px;
     }
@@ -11,7 +12,7 @@
     #left { left: 0; }
     #right { right: 0; }
     
-#top, #bottom {
+//#top, #bottom {
     left: 0; right: 0;
     height: 15px;
     }
@@ -100,8 +101,12 @@ strong {
     text-align: center;
 }
 
-.hero-body {
+.hero-body-cele {
     background-image: url(../assets/img/homesquare-gradient.jpeg;)
+}
+
+.paul {
+    background-image: url(../assets/img/Paul/Paul.jpg) !important ;
 }
 
 .navbar {
@@ -116,6 +121,10 @@ strong {
     letter-spacing: 2px;
     font-size: .9rem;
     transition: all .3s ease-in-out;
+}
+
+//.navbar-shadow {
+    box-shadow: 0 4px 20px -12px #0000008f;
 }
 
 .navbar-item {
@@ -288,5 +297,31 @@ a.navbar-item:hover {
     margin: 10px 0;
     width: 40px;
     height: 4px;
-    background: #A9CAC8;
+    background: #A9CAC8 !important;
+}
+
+a.navbar-item:hover {
+    transition: ease-in-out .2s;
+    color: #A9CAC8 !important;
+    background-color: transparent !important;
+}
+
+.portfolio .portfolio-item img {
+    border-radius: 10px;
+    max-height: 100% !important;
+    display: block;
+}
+
+.portfolio .portfolio-item .circle-overlay {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #9cc7c4d6 !important;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all 0.5s;
+    z-index: 1;
 }
