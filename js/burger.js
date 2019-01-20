@@ -72,3 +72,18 @@ $(function () {
         }
     })
 });
+
+//Video embed init
+if ($('#video-embed').length) {
+    Video('#video-embed');
+}
+
+//Video embed init
+if ($('#video-embed2').length) {
+    Video('#video-embed2');
+}
+
+//Video embed init
+if ($('#video-embed3').length) {
+    Video('#video-embed3');
+}
