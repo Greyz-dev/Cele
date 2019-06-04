@@ -1,10 +1,10 @@
-#top, #bottom, #left, #right {
+//#top, #bottom, #left, #right {
 	background: #ffffff;
     position: fixed;
     z-index: 1;
     }
     
-#left, #right {
+//#left, #right {
     top: 0; bottom: 0;
     width: 15px;
     }
@@ -12,7 +12,7 @@
     #left { left: 0; }
     #right { right: 0; }
     
-#top, #bottom {
+//#top, #bottom {
     left: 0; right: 0;
     height: 15px;
     }
@@ -187,6 +187,26 @@ a.navbar-item:hover {
 .main-jumbo {
     background-image: url(../assets/img/homesquare-gradient2.jpg);
     background-position: center;
+}
+
+.main-jumbo-senior {
+    background-image: url(../assets/img/seniors/18.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.main-jumbo-creative {
+    background-image: url(../assets/img/creative/19.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.section-pad {
+    padding: 3rem !important;
+}
+
+.darken {
+    filter: brightness(75%);
 }
 
 .cele-full {
@@ -366,4 +386,16 @@ a.navbar-item:hover {
     background-image: url(../assets/img/paul/M&T.png);
     background-position: center;
     background-size: cover;
+}
+
+.title-big {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.title-sm {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
 }
